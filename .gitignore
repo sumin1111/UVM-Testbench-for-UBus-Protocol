@@ -1,0 +1,25 @@
+# build / simulation ignore files
+*.log
+*.conf
+*.rc
+*.vpd
+*.vcd
+*.db
+*.key
+*.fsdb
+simv*
+csrc*
+novas*
+output/
+coverage/
+logs/
+compile.log
+novas_dump.log
+simulation.log
+tr_db.log
+ucli.key
+vc_hdrs.h
+*.swp
+*.swn
+*.swo
+*.tmp
