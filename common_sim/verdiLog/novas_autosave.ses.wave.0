@@ -1,0 +1,80 @@
+Magic 271485
+Revision Verdi_V-2023.12-SP2-8
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1920 877 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/DATA/home/edu028/3team/final/common_sim/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 4567.472739 5270.496351
+cursor 2485.18645331110
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 10
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/DATA/home/edu028/3team/final/common_sim/wave.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /my3_testbench_top/m_vif/ubus_addr[15:0]
+addSignal -h 15 -holdScope ubus_bip
+addSignal -h 15 -holdScope ubus_clock
+addSignal -h 15 -UNSIGNED -HEX -holdScope ubus_data[7:0]
+addSignal -h 15 -holdScope ubus_error
+addSignal -h 15 -holdScope ubus_read
+addSignal -h 15 -holdScope ubus_reset
+addSignal -h 15 -UNSIGNED -HEX -holdScope ubus_size[2:0]
+addSignal -h 15 -holdScope ubus_wait
+addSignal -h 15 -holdScope ubus_write
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/DATA/home/edu028/3team/final/common_sim/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/my3_testbench_top"
+
+SCOPE_LIST_BEGIN
+"/my3_testbench_top"
+"/my3_testbench_top/s_vif"
+"/my3_testbench_top/m_vif"
+"/my3_testbench_top/dut"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

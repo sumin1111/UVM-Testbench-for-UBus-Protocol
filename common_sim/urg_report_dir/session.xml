@@ -1,0 +1,35 @@
+
+<session version="1.1" release="V-2023.12-SP2-8" timestp="2025-11-24 02:14:46 GMT">
+  <info>
+    <attr name="datetime" value="Mon Nov 24 11:14:46 2025
+=======
+
+"/>
+    <attr name="command" value="urg -dir ubus_cov.vdb -report urg_report_dir -format text -metric group -group expand_bins -show brief group"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+
+    <metric name="Group" value="100%" />
+=======
+
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="my3_testbench_top::cov_trans">
+
+      <metric name="Group" value="100%" />
+=======
+
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

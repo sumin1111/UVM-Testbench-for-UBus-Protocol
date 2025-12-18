@@ -1,0 +1,204 @@
+Group : my3_testbench_top::cov_trans
+
+===============================================================================
+Group : my3_testbench_top::cov_trans
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 99.22  99.22    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/DATA/home/edu028/3team/final/common_sim/../common_vip/ubus_coverage.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME       
+ 99.22 1      100    1        64           64            m_trans_cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   my3_testbench_top::cov_trans
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 24       0         24      100.00  
+Crosses   128      5         123     96.09   
+
+
+Variables for Group  my3_testbench_top::cov_trans
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+trans_addr       16       0         16      100.00  100  1      1        16                   
+trans_dir        2        0         2       100.00  100  1      1        0                    
+trans_size       4        0         4       100.00  100  1      1        0                    
+trans_wait_state 2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group  my3_testbench_top::cov_trans
+
+
+CROSS              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+trans_addrDirXSize 128      5         123     96.09   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_addr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 16       0         16      100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_dir
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_size
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_wait_state
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross trans_addrDirXSize
+
+
+Samples crossed: trans_addr trans_dir trans_size
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 128      5         123     96.09   5       
+
+
+Decompressed uncovered bins for trans_addrDirXSize
+
+trans_addr        trans_dir trans_size COUNT AT LEAST 
+auto[4096:8191]   READ      sizes_8    0     1        
+auto[8192:12287]  READ      sizes_8    0     1        
+auto[32768:36863] READ      sizes_1    0     1        
+auto[49152:53247] WRITE     sizes_4    0     1        
+auto[61440:65535] READ      sizes_1    0     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : m_trans_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 99.22 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                         
+ 99.22  99.22    1      100    1        1            64           64                    my3_testbench_top::cov_trans 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   m_trans_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 24       0         24      100.00  
+Crosses   128      5         123     96.09   
+
+
+Variables for Group Instance  m_trans_cg
+
+
+VARIABLE         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+trans_addr       16       0         16      100.00  100  1      1        16                   
+trans_dir        2        0         2       100.00  100  1      1        0                    
+trans_size       4        0         4       100.00  100  1      1        0                    
+trans_wait_state 2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  m_trans_cg
+
+
+CROSS              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+trans_addrDirXSize 128      5         123     96.09   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_addr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 16       0         16      100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_dir
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_size
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable trans_wait_state
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross trans_addrDirXSize
+
+
+Samples crossed: trans_addr trans_dir trans_size
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 128      5         123     96.09   5       
+
+
+Decompressed uncovered bins for trans_addrDirXSize
+
+trans_addr        trans_dir trans_size COUNT AT LEAST 
+auto[4096:8191]   READ      sizes_8    0     1        
+auto[8192:12287]  READ      sizes_8    0     1        
+auto[32768:36863] READ      sizes_1    0     1        
+auto[49152:53247] WRITE     sizes_4    0     1        
+auto[61440:65535] READ      sizes_1    0     1        
+
+

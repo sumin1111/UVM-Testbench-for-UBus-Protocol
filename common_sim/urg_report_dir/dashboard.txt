@@ -1,0 +1,33 @@
+Dashboard
+
+
+Date: Mon Nov 24 11:14:46 2025
+
+User: edu010
+=======
+Date: Fri Nov 21 09:31:18 2025
+
+User: edu028
+
+
+Version: V-2023.12-SP2-8
+Command line: urg -dir ubus_cov.vdb -report urg_report_dir -format text -metric group -group expand_bins -show brief group 
+
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+
+100.00 100.00 
+
+
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+
+SCORE  WEIGHT 
+--     1      
+
+

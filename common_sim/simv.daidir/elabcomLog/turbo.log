@@ -1,0 +1,3 @@
+Command Line: /tools/synopsys/vcs/V-2023.12-SP2-8/linux64/bin/elabcom -logdir /DATA/home/edu028/3team/final/common_sim/simv.daidir/elabcomLog -simvdaidir /DATA/home/edu028/3team/final/common_sim/simv.daidir -lib /DATA/home/edu028/3team/final/common_sim/simv.daidir/work -saveLevel -elab /DATA/home/edu028/3team/final/common_sim/simv.daidir/kdb -simflow -simdir /DATA/home/edu028/3team/final/common_sim/simv.daidir/kdb_libs -topfile /DATA/home/edu028/3team/final/common_sim/simv.daidir/.elabcomTopFile -ssv -ssy -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389
+uname(Linux SGP3 4.18.0-553.69.1.el8_10.x86_64 #1 SMP Thu Aug 7 18:10:00 EDT 2025 x86_64)
+au time 0.269941 0.164497 0.019026 delta 102260736 102260736 total 354078720 354078720

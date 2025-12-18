@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1763685068.714135215, "rt":6.89, "ut":7.08, "st":0.28}}
+{"vcselab":{"timestamp_begin":1763685075.656884173, "rt":0.20, "ut":0.11, "st":0.05}}
+{"link":{"timestamp_begin":1763685075.890675739, "rt":0.61, "ut":0.43, "st":0.13}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1763685068.434992960}
+{"VCS_COMP_START_TIME": 1763685068.434992960}
+{"VCS_COMP_END_TIME": 1763685076.582188622}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -lca -debug_access+all+reverse -kdb -l comp.log -ntb_opts uvm-1.2 -cm line+cond+fsm+tgl+branch+assert ../common_vip/ubus_m_if.sv ../common_vip/ubus_s_if.sv ../common_vip/my3_testbench_top.sv ../common_vip/dummy_dut.sv -o simv"}
+{"vcs1": {"peak_mem": 559904}}
+{"vcselab": {"peak_mem": 239072}}

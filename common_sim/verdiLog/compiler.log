@@ -1,0 +1,8 @@
+*design* DebussyLib (btIdent Verdi_V-2023.12-SP2-8)
+Command arguments:
+    +define+verilog
+    wave.fsdb
+
+*Error* no source file
+
+Total	1 error(s),   0 warning(s)

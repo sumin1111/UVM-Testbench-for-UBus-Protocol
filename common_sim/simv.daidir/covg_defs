@@ -1,0 +1,130 @@
+global coverage_group 0 0 my3_testbench_top::cov_trans __coverage_cov_trans unused_cov_trans_loop_label my3_testbench_top 0 0 0 0 0  ( 0 
+)
+ 1 1
+ 0 71 /DATA/home/edu028/3team/final/common_sim/../common_vip/ubus_coverage.sv
+ 5 0 0 0 0 0 0 0 0  1
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 43 cov_trans::my3_testbench_top_cov_trans_fn_c
+0
+0
+0
+64
+0
+ 0
+
+4
+0
+1
+0
+ 10 trans_addr 12 0 0 0 0 0 0 41 cov_trans::my3_testbench_top_cov_trans_fn 41 cov_trans::my3_testbench_top_cov_trans_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 16 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 43 cov_trans::my3_testbench_top_cov_trans_fn_0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 9 trans_dir 15 0 0 0 0 0 0 43 cov_trans::my3_testbench_top_cov_trans_fn_1 43 cov_trans::my3_testbench_top_cov_trans_fn_1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 READ 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_2 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 WRITE 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_3 0 0 0 0 0 0 0
+ 0
+
+ 10 trans_size 18 0 0 0 0 0 0 43 cov_trans::my3_testbench_top_cov_trans_fn_4 43 cov_trans::my3_testbench_top_cov_trans_fn_4 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 4 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 5 sizes 18 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 4 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_5 0 0 0 0 0 0 0
+ 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_6 0 0 0 0 0 0 0
+ 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_7 0 0 0 0 0 0 0
+ 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_8 0 0 0 0 0 0 0
+ 0
+
+ 16 trans_wait_state 27 0 0 0 0 0 0 43 cov_trans::my3_testbench_top_cov_trans_fn_9 43 cov_trans::my3_testbench_top_cov_trans_fn_9 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 1 32 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 7 NO_WAIT 27 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_a 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 WITH_WAIT 27 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 43 cov_trans::my3_testbench_top_cov_trans_fn_5 0 43 cov_trans::my3_testbench_top_cov_trans_fn_b 0 0 0 0 0
+ 0
+
+ 18 trans_addrDirXSize 0 21 0 0 -1 0 0 0 0 3 0 1 2 0 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
