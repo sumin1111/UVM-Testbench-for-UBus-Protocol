@@ -96,3 +96,8 @@ Coverage용 sequence # 4가지 방법으로 Coverage 100% 달성 및 read/write 
 - ubus_target_addr_dir_seq # targeting 6가지 sequence 1개로 통합
 - ubus_target_addr_dir_seqf # hit 영역은 반복안하는 sequence
 
+## 5. 결론 및 제언
+본 프로젝트에서는 UVM 방법론을 기반으로 UBUS 프로토콜 검증을 위한 VIP(Verification IP)를 성공적으로 구현하였다. 
+특히 Coverage-Driven Verification(CDV) 기법을 도입하여, 무가치한 중복 트랜잭션을 배제하고 미달성된 커버리지 영역만 지능적으로 타겟팅함으로써 검증 효율을 83% 이상 획기적으로 개선할 수 있었다. 
+본 VIP는 재사용 가능한 모듈형 구조로 설계되어 향후 다양한 SoC 검증 환경에 유연하게 적용될 수 있을 것으로 기대된다.
+
